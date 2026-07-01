@@ -1,0 +1,36 @@
+canonical_identifier: bkk:krp/KR6v0310/v1
+canonical_location: https://kanripo.org/bkk/KR6v0310/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 轉法輪經
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/B/B07/B07n0011.xml
+    old_id: B07n0011
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0310_000.yaml, hash: 'sha256:e47a99b798501c0b76343c32351497c84361b99300c40655ed5cffc848329014'}
+  - {seq: 1, filename: KR6v0310_001.yaml, hash: 'sha256:7b6aea132b74f0cb6005991ed45ef3f91c4cb63c4eadcd0bca751e065e841bc3'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0310_001.markers.yaml, hash: 'sha256:500acd7b1c4ec5fec5204a829222d04e498f986774cd49fb9c541192309573b7'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0310_B_001-juan-start
+    span:
+    - body
+    - 0
+    - 1105
+  label: 轉法輪經
+  type: juan
+  level: 1
+hash: sha256:4d66afa8d058136379778c0d3f540925a01c4efd28bc478ff0fa8334bfb8f45b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: B
